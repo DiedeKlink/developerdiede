@@ -21,16 +21,22 @@ export default function page({ params }) {
     <div className="m-auto max-w-[700px] text-center">
       <H1>{project.title}</H1>
       <p className="mt-5">{project.description}</p>
-      {project.imgSrc && (
-        <Image
-          src={project.imgSrc}
-          className="m-auto mt-5"
-          alt={project.title}
-          width={400}
-          height={200}
-        />
+      {project.imgSrc && project.href && (
+        <Link target="_blank" href={project.href}>
+          <Image
+            src={project.imgSrc}
+            className="m-auto mt-5"
+            alt={project.title}
+            width={400}
+            height={200}
+          />
+        </Link>
       )}
-      {project.href && <Link href={project.href}>Bekijk live</Link>}
+      {project.href && (
+        <Link target="_blank" href={project.href}>
+          Bekijk live
+        </Link>
+      )}
     </div>
   )
 }
