@@ -14,6 +14,8 @@ export default function Projects({ searchParams }) {
     if (!searchParams.tech) return true
     return project.tech.toLowerCase().includes(searchParams.tech)
   })
+
+  const resultsCount = filteredProjects.length
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -23,13 +25,16 @@ export default function Projects({ searchParams }) {
             Projecten uit dienstverbanden, hobby- en cursusprojecten
           </p>
         </div>
-        {searchParams.tech ? (
-          <div className="py-5">
-            <FilterBtn value={searchParams.tech} />
-          </div>
-        ) : (
-          <FilterBtnRow />
-        )}
+        <div className="flex flex-wrap py-5 text-gray-400">
+          {searchParams.tech ? (
+            <>
+              <FilterBtn value={searchParams.tech} />
+              <span className="ml-auto mt-4">Resultaten: {resultsCount}</span>
+            </>
+          ) : (
+            <FilterBtnRow />
+          )}
+        </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
             {filteredProjects.map((d) => (
