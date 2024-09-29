@@ -10,8 +10,6 @@ import FilterBtnRow from '@/components/filter-btn-row'
 export const metadata = genPageMetadata({ title: 'Projecten' })
 
 export default function Projects({ searchParams }) {
-  console.log(searchParams)
-
   const filteredProjects = projectsData.filter((project) => {
     if (!searchParams.tech) return true
     return project.tech.toLowerCase().includes(searchParams.tech)
