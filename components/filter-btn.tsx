@@ -7,7 +7,11 @@ import { useRouter, useSearchParams } from 'next/navigation'
 
 import React, { useCallback, useContext } from 'react'
 
-export default function FilterBtn({ value }) {
+interface FilterBtnProps {
+  value: string
+}
+
+export default function FilterBtn({ value }: FilterBtnProps) {
   const searchParams = useSearchParams()
   const router = useRouter()
 
@@ -34,7 +38,7 @@ export default function FilterBtn({ value }) {
         await handlePageRevalidation()
         router.push('/projecten/')
       }}
-      className="mb-5 flex items-center gap-x-2 rounded-md border-transparent bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100"
+      className="mt-1 flex items-center gap-x-2 rounded-md border-transparent bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100"
     >
       Filter: {firstUpperCase(value)} <Cross1Icon />
     </button>

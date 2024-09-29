@@ -5,6 +5,7 @@ import H1 from '@/components/H1'
 import { Cross1Icon } from '@radix-ui/react-icons'
 import { firstUpperCase } from 'lib/utils'
 import FilterBtn from '@/components/filter-btn'
+import FilterBtnRow from '@/components/filter-btn-row'
 
 export const metadata = genPageMetadata({ title: 'Projecten' })
 
@@ -25,9 +26,11 @@ export default function Projects({ searchParams }) {
           </p>
         </div>
         {searchParams.tech ? (
-          <FilterBtn value={searchParams.tech} />
+          <div className="py-5">
+            <FilterBtn value={searchParams.tech} />
+          </div>
         ) : (
-          <div className="py-5">Filter op:</div>
+          <FilterBtnRow />
         )}
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
