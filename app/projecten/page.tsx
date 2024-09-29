@@ -2,10 +2,19 @@ import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
 import H1 from '@/components/H1'
+import { Cross1Icon } from '@radix-ui/react-icons'
+import { firstUpperCase } from 'lib/utils'
+import FilterBtn from '@/components/filter-btn'
 
 export const metadata = genPageMetadata({ title: 'Projecten' })
 
-export default function Projects() {
+export default function Projects({ searchParams }) {
+  console.log(searchParams)
+
+  const filteredProjects = projectsData.filter((project) => {
+    if (!searchParams.tech) return true
+    return project.tech.toLowerCase().includes(searchParams.tech)
+  })
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -15,9 +24,14 @@ export default function Projects() {
             Projecten uit dienstverbanden, hobby- en cursusprojecten
           </p>
         </div>
+        {searchParams.tech ? (
+          <FilterBtn value={searchParams.tech} />
+        ) : (
+          <div className="py-5">Filter op:</div>
+        )}
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
+            {filteredProjects.map((d) => (
               <Card data={d} key={d.slug} />
             ))}
           </div>

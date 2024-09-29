@@ -2,10 +2,10 @@ export type Project = {
   title: string
   description: string
   descriptionEn?: string
-  href?: string
+  href: string
   imgSrc?: string
   slug?: string
-  tech?: string
+  tech: string
   github?: string
   category?: string
 }
@@ -74,6 +74,7 @@ const projectsData: Project[] = [
     title: 'RMTDEV',
     tech: 'React, TypeScript, Vite',
     descriptionEn: `
+    
     RMTDEV is a job platform built with React and TypeScript. It allows users to search for job offers specifically in the field of programming, including React and other related technologies. `,
     description: `
     RMTDEV is een jobplatform gebouwd met React en TypeScript. Het stelt gebruikers in staat om naar vacatures te zoeken specifiek op het gebied van programmeren, inclusief React en andere gerelateerde technologieën. 
