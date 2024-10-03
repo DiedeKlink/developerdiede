@@ -1,3 +1,4 @@
+import BackButton from '@/components/back-btn'
 import H1 from '@/components/H1'
 import ProjectAside from '@/components/project-aside'
 import SideParagraph from '@/components/side-paragraph'
@@ -38,6 +39,7 @@ export default function page({ params }) {
             />
           </Link>
         )}
+        <BackButton className="mt-5">Terug naar projecten</BackButton>
       </div>
     </main>
   )
