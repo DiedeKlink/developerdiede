@@ -13,7 +13,7 @@ export type Project = {
 const projectsData: Project[] = [
   {
     title: 'Fancy Counter',
-    tech: 'React, Vite',
+    tech: 'React',
     descriptionEn: `
     A simple counter app built with React. It features a button to increment the count and another button to decrement the count. The count can also be reset to zero.`,
     description: `
@@ -26,7 +26,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'Word Analytics',
-    tech: 'React, Vite',
+    tech: 'React',
 
     descriptionEn: `
     A simple word analytics app built with React. It features a text area where you can input text. The app will then display the number of words, characters, and sentences in the text.
@@ -42,7 +42,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'TrekBag',
-    tech: 'React, Vite',
+    tech: 'React',
     descriptionEn: `
     TrekBag is a to-do style app built with React. It helps you keep track of items to pack for your road trip. You can add items to your packing list, mark them as packed, and remove them once you're done. This ensures you never forget any essential items for your journey.
     `,
@@ -57,7 +57,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'CorpComment',
-    tech: 'React, TypeScript, Vite',
+    tech: 'React, TypeScript',
     descriptionEn: `
     CorpComment is a platform built with React. Users can leave comments about corporations using hashtags. This allows for easy categorization and searching of comments. Users can share their experiences, feedback, and opinions about different companies, helping others make informed decisions. The app supports real-time updates and displays trending hashtags related to corporations.
     `,
@@ -72,7 +72,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'RMTDEV',
-    tech: 'React, TypeScript, Vite',
+    tech: 'React, TypeScript',
     descriptionEn: `
     
     RMTDEV is a job platform built with React and TypeScript. It allows users to search for job offers specifically in the field of programming, including React and other related technologies. `,
@@ -144,6 +144,21 @@ const projectsData: Project[] = [
     github: 'https://github.com/DiedeKlink/RMTDEV',
     slug: 'rmtdev-js',
     category: 'cursus',
+  },
+  {
+    title: 'LiftTracker',
+    tech: 'React Native',
+    descriptionEn: `
+    LiftTracker is a fitness app built with React Native. It allows users to track their sets, weight, and reps for various exercises. Users can log their workouts per day and utilize the calendar functionality to view their workout history and plan future sessions. This app helps users stay organized and motivated in their fitness journey.
+    `,
+    description: `
+    LiftTracker is een fitness-app gebouwd met React Native. Het stelt gebruikers in staat om hun sets, gewicht en herhalingen voor verschillende oefeningen bij te houden. Gebruikers kunnen hun trainingen per dag loggen en de kalenderfunctionaliteit gebruiken om hun trainingsgeschiedenis te bekijken. Deze app helpt gebruikers georganiseerd en gemotiveerd te blijven in hun fitnessreis.
+    `,
+    imgSrc: '/static/images/lifttracker-01.jpg',
+    href: '/LiftTracker.apk',
+    github: 'https://github.com/DiedeKlink/LiftTracker',
+    slug: 'lifttracker',
+    category: 'hobby',
   },
 ]
 

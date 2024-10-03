@@ -9,7 +9,7 @@ export default function ProjectAside({ project }) {
     <aside className="order-last min-w-[230px] rounded-md p-4 dark:bg-stone-900 lg:order-none">
       <SideParagraph>Categorie: {project.category}</SideParagraph>
       <SideParagraph>
-        <p className="mb-2">Techniek: </p>
+        <p className="mb-2">Taal: </p>
         {project.tech.split(',').map((tech, index) => (
           <Link
             href={`/projecten?tech=${tech.trim().toLowerCase()}`}
