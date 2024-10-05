@@ -14,7 +14,7 @@ export default function ProjectAside({ project }) {
           <Link
             href={`/projecten?tech=${tech.trim().toLowerCase()}`}
             key={index}
-            className="mr-4 inline-block rounded-md bg-white/5 px-2 py-1"
+            className="mb-2 mr-2 inline-block rounded-md bg-white/5 px-2 py-1"
           >
             {tech}
           </Link>
@@ -26,7 +26,8 @@ export default function ProjectAside({ project }) {
       <SideParagraph>
         <Link target="_blank" href={project.href}>
           <button className="flex items-center gap-x-2 rounded-md bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100">
-            Project Website <ExternalLinkIcon />
+            {project.href.includes('.apk') ? 'Download App' : 'Project Website'}
+            <ExternalLinkIcon />
           </button>
         </Link>
       </SideParagraph>

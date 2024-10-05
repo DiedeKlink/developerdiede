@@ -21,11 +21,21 @@ export default function page({ params }) {
   }
 
   return (
-    <main className="flex flex-col lg:flex-row">
+    <main className="flex flex-col items-start lg:flex-row">
       <ProjectAside project={project} />
       <div className="m-auto max-w-[700px] p-4 ">
         <H1>{project.title}</H1>
         <p className="mt-5" dangerouslySetInnerHTML={{ __html: project.description }}></p>
+        {project.subjects && (
+          <div className="mt-5">
+            <h2 className="mt-5 text-2xl font-extrabold">Behandelde onderwerpen</h2>
+            <ul className="list-disc pl-[40px]">
+              {project.subjects.map((subject, index) => (
+                <li key={index}>{subject}</li>
+              ))}
+            </ul>
+          </div>
+        )}
         {project.imgSrc && project.href && (
           <Link target="_blank" href={project.href}>
             <Image
