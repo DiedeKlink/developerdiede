@@ -36,6 +36,7 @@ export default function page({ params }) {
               alt={project.title}
               width={400}
               height={200}
+              unoptimized={true}
             />
           </Link>
         )}
