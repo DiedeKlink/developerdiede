@@ -20,8 +20,6 @@ export default function page({ params }) {
     return <div>Project not found</div>
   }
 
-  console.log(project)
-
   return (
     <main className="flex flex-col lg:flex-row">
       <ProjectAside project={project} />
