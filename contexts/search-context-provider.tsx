@@ -1,6 +1,6 @@
 'use client'
 
-import { useFilterBtn } from 'lib/actions'
+import { FilterBtn } from 'lib/actions'
 import React, { createContext } from 'react'
 
 type SearchContextProviderProps = {
@@ -20,7 +20,7 @@ export default function SearchContextProvider({ children }: SearchContextProvide
 
   //event handlers
   const handlePageRevalidation = async () => {
-    await useFilterBtn()
+    await FilterBtn()
   }
 
   return (

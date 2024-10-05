@@ -47,7 +47,6 @@ export default function page({ params }) {
             />
           </Link>
         )}
-        <BackButton className="mt-5">Terug naar projecten</BackButton>
       </div>
     </main>
   )
