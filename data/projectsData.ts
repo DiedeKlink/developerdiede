@@ -107,6 +107,64 @@ const projectsData: Project[] = [
     category: 'cursus',
   },
   {
+    title: 'BotenWebManager',
+    tech: 'Javascript',
+    description: `
+      Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://arimpex.nl/" target="blank" title="Arimpex">Arimpex Media Services</a>. BotenWebManager is een uitgebreide webapplicatie die speciaal is ontworpen voor het beheren van botenadvertenties. De applicatie biedt functies zoals het bijhouden van bootgegevens, en het doorplaatsen van advertenties naar verschillende botenplatforms. Het doel van BotenWebManager is om eigenaren en beheerders van jachthavens te helpen bij het efficiënt beheren van hun vloot en faciliteiten.
+      `,
+
+    imgSrc: '/static/images/Botenbeheer-01.png',
+    href: 'https://botenwebmanager.nl/',
+
+    slug: 'botenwebmanager',
+    category: 'dienstverband',
+  },
+  {
+    title: 'Botentekoop.nl',
+    tech: 'Javascript',
+    description: `
+      Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://arimpex.nl/" target="blank" title="Arimpex">Arimpex Media Services</a>. 
+
+      Botentekoop.nl is een toonaangevend platform voor het kopen en verkopen van boten in Nederland. Het biedt een uitgebreide database van botenadvertenties, variërend van kleine sloepen tot luxe jachten. Gebruikers kunnen eenvoudig zoeken naar boten op basis van verschillende criteria zoals type, prijs, en locatie. Het platform biedt ook tools voor het beheren van advertenties, het bijhouden van favorieten, en het direct contact opnemen met verkopers. Botentekoop.nl streeft ernaar om de beste ervaring te bieden voor zowel kopers als verkopers in de botenmarkt. Botentekoop is verkocht aan een andere partij dus de look en feel van de website is inmiddels veranderd.
+      `,
+
+    imgSrc: '/static/images/Botentekoop-01.jpg',
+    href: 'https://botentekoop.nl/',
+
+    slug: 'botentekoop',
+    category: 'dienstverband',
+  },
+  {
+    title: 'Camperscaravans.nl',
+    tech: 'Javascript',
+    description: `
+      Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://arimpex.nl/" target="blank" title="Arimpex">Arimpex Media Services</a>. 
+
+      Camperscaravans.nl is een toonaangevend platform voor het kopen en verkopen van campers en caravans in Nederland. Het biedt een uitgebreide database van advertenties, variërend van compacte campers tot luxe caravans. Gebruikers kunnen eenvoudig zoeken naar voertuigen op basis van verschillende criteria zoals type, prijs, en bouwjaar. Het platform biedt ook tools voor het beheren van advertenties, het bijhouden van favorieten, en het direct contact opnemen met verkopers. Camperscaravans.nl streeft ernaar om de beste ervaring te bieden voor zowel kopers als verkopers in de markt voor recreatievoertuigen.
+      `,
+
+    imgSrc: '/static/images/Camperscaravans-01.jpg',
+    href: 'https://camperscaravans.nl/',
+
+    slug: 'camperscaravans',
+    category: 'dienstverband',
+  },
+  {
+    title: 'LiftTracker',
+    tech: 'React Native',
+    descriptionEn: `
+    LiftTracker is a fitness app built with React Native. It allows users to track their sets, weight, and reps for various exercises. Users can log their workouts per day and utilize the calendar functionality to view their workout history and plan future sessions. This app helps users stay organized and motivated in their fitness journey.
+    `,
+    description: `
+    LiftTracker is een fitness-app gebouwd met React Native. Het stelt gebruikers in staat om hun sets, gewicht en herhalingen voor verschillende oefeningen bij te houden. Gebruikers kunnen hun trainingen per dag loggen en de kalenderfunctionaliteit gebruiken om hun trainingsgeschiedenis te bekijken. Deze app helpt gebruikers georganiseerd en gemotiveerd te blijven in hun fitnessreis.
+    `,
+    imgSrc: '/static/images/rmtdev-02.png',
+    href: '/LiftTracker.apk',
+    github: 'https://github.com/DiedeKlink/LiftTracker',
+    slug: 'lifttracker',
+    category: 'hobby',
+  },
+  {
     title: 'Fancy Counter',
     tech: 'React',
     descriptionEn: `
@@ -283,21 +341,6 @@ const projectsData: Project[] = [
     github: 'https://github.com/DiedeKlink/RMTDEV',
     slug: 'rmtdev-js',
     category: 'cursus',
-  },
-  {
-    title: 'LiftTracker',
-    tech: 'React Native',
-    descriptionEn: `
-    LiftTracker is a fitness app built with React Native. It allows users to track their sets, weight, and reps for various exercises. Users can log their workouts per day and utilize the calendar functionality to view their workout history and plan future sessions. This app helps users stay organized and motivated in their fitness journey.
-    `,
-    description: `
-    LiftTracker is een fitness-app gebouwd met React Native. Het stelt gebruikers in staat om hun sets, gewicht en herhalingen voor verschillende oefeningen bij te houden. Gebruikers kunnen hun trainingen per dag loggen en de kalenderfunctionaliteit gebruiken om hun trainingsgeschiedenis te bekijken. Deze app helpt gebruikers georganiseerd en gemotiveerd te blijven in hun fitnessreis.
-    `,
-    imgSrc: '/static/images/rmtdev-02.png',
-    href: '/LiftTracker.apk',
-    github: 'https://github.com/DiedeKlink/LiftTracker',
-    slug: 'lifttracker',
-    category: 'hobby',
   },
 ]
 

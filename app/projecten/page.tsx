@@ -22,7 +22,7 @@ export default function Projects({ searchParams }) {
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <H1>Projecten</H1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Projecten uit dienstverbanden, hobby- en cursusprojecten
+            Een greep uit mijn projecten uit dienstverbanden, hobby- en cursusprojecten
           </p>
         </div>
         <div className="flex flex-wrap py-5 text-gray-400">

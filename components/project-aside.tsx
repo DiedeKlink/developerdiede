@@ -23,9 +23,11 @@ export default function ProjectAside({ project }) {
               </Link>
             ))}
           </SideParagraph>
-          <SideParagraph>
-            <SocialIcon kind="github" href={project.github} size={6} />
-          </SideParagraph>
+          {project.github && (
+            <SideParagraph>
+              <SocialIcon kind="github" href={project.github} size={6} />
+            </SideParagraph>
+          )}
           <SideParagraph>
             <Link target="_blank" href={project.href}>
               <button className="flex items-center gap-x-2 rounded-md bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100">
@@ -35,7 +37,7 @@ export default function ProjectAside({ project }) {
             </Link>
           </SideParagraph>
         </div>
-        <BackButton className="mt-5 w-[100%]">Terug naar projecten</BackButton>
+        <BackButton className="mt-5 w-[100%]">Terug</BackButton>
       </aside>
     </>
   )

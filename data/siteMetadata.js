@@ -8,7 +8,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://developerdiede.vercel.app/',
   siteRepo: 'https://github.com/DiedeKlink/developerdiede',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo2.png`,
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo-new-fav.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/ogimg.png`,
   // mastodon: '',
   email: 'diede@protonmail.com',
