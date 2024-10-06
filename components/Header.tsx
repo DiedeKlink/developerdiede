@@ -21,16 +21,16 @@ const Header = () => {
             <div className="h-[56px]">
               <Image
                 alt="Developer Diede Logo"
-                src="/static/images/logo-new.png"
+                src="/static/images/logo2.png"
                 className="hidden dark:block"
-                width={400}
+                width={250}
                 height={56}
               />
               <Image
                 alt="Developer Diede Logo"
-                src="/static/images/logo-new-dark.png"
+                src="/static/images/logo2-dark.png"
                 className="dark:hidden"
-                width={400}
+                width={250}
                 height={56}
               />
             </div>
