@@ -30,7 +30,7 @@ export default function page({ params }) {
             <h2 className="mt-5 text-2xl font-extrabold">Behandelde onderwerpen</h2>
             <ul className="list-disc pl-[40px]">
               {project.subjects.map((subject, index) => (
-                <li class=" text-gray-500 dark:text-gray-400" key={index}>
+                <li className=" text-gray-500 dark:text-gray-400" key={index}>
                   {subject}
                 </li>
               ))}
