@@ -12,7 +12,7 @@ export default function FilterBtnRow() {
       <span className="mr-4 mt-4">Filter op:</span>{' '}
       {uniqueTechs.map((tech) => (
         <Link href={`/projecten?tech=${tech}`} key={tech}>
-          <button className="mr-5 mt-1 inline-block items-center gap-x-2 rounded-md border-transparent bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100">
+          <button className="mr-5 mt-1 inline-block items-center gap-x-2 rounded-md border-transparent bg-black/5 px-5  py-3 text-gray-900 opacity-75 transition hover:opacity-100  dark:bg-white/5 dark:text-white">
             {firstUpperCase(tech)}
           </button>
         </Link>

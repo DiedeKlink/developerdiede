@@ -36,7 +36,7 @@ export default function FilterBtn({ value }: FilterBtnProps) {
         router.push('/projecten')
         router.refresh()
       }}
-      className="mt-1 flex items-center gap-x-2 rounded-md border-transparent bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100"
+      className="mt-1 flex items-center gap-x-2 rounded-md border-transparent bg-black/5 px-5 py-3 text-gray-900 opacity-75 transition hover:opacity-100 dark:bg-white/5 dark:text-white"
     >
       Filter: {firstUpperCase(value)} <Cross1Icon />
     </button>

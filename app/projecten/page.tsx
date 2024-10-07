@@ -25,7 +25,7 @@ export default function Projects({ searchParams }) {
             Een greep uit mijn projecten uit dienstverbanden, hobby- en cursusprojecten
           </p>
         </div>
-        <div className="flex flex-wrap py-5 text-gray-400">
+        <div className="flex flex-wrap py-5 text-gray-500 dark:text-gray-400">
           {searchParams.tech ? (
             <>
               <FilterBtn value={searchParams.tech} />

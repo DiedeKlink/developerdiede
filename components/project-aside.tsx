@@ -9,7 +9,7 @@ export default function ProjectAside({ project }) {
   return (
     <>
       <aside className="order-last lg:order-none">
-        <div className=" min-w-[230px] rounded-md p-4 dark:bg-stone-900 ">
+        <div className="min-w-[230px] rounded-md bg-black/5 p-4 text-gray-900 dark:bg-stone-900 dark:text-white ">
           <SideParagraph>Categorie: {project.category}</SideParagraph>
           <SideParagraph>
             <p className="mb-2">Taal: </p>
@@ -17,7 +17,7 @@ export default function ProjectAside({ project }) {
               <Link
                 href={`/projecten?tech=${tech.trim().toLowerCase()}`}
                 key={index}
-                className="mb-2 mr-2 inline-block rounded-md bg-white/5 px-2 py-1"
+                className="mb-2 mr-2 inline-block rounded-md bg-black/5 px-2 py-1 dark:bg-white/5"
               >
                 {tech}
               </Link>
@@ -30,7 +30,7 @@ export default function ProjectAside({ project }) {
           )}
           <SideParagraph>
             <Link target="_blank" href={project.href}>
-              <button className="flex items-center gap-x-2 rounded-md bg-white/5 px-5 py-3 text-white opacity-75 transition hover:opacity-100">
+              <button className="mt-1 flex items-center gap-x-2 rounded-md border-transparent bg-black/5 px-5 py-3 text-gray-900 opacity-75 transition hover:opacity-100 dark:bg-white/5 dark:text-white">
                 {project.href.includes('.apk') ? 'Download App' : 'Project Website'}
                 <ExternalLinkIcon />
               </button>
