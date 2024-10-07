@@ -1,4 +1,5 @@
 import H1 from '@/components/H1'
+import ImageGallery from '@/components/image-gallery'
 import ProjectAside from '@/components/project-aside'
 import projectsData from '@/data/projectsData'
 import { genPageMetadata } from 'app/seo'
@@ -37,16 +38,21 @@ export default function page({ params }) {
             </ul>
           </div>
         )}
-        {project.imgSrc && project.href && (
-          <Link target="_blank" href={project.imgSrc}>
-            <Image
-              src={project.imgSrc}
-              className=" mt-5"
-              alt={project.title}
-              width={400}
-              height={200}
-            />
-          </Link>
+        {project.imgGallery ? (
+          <ImageGallery data={project.imgGallery} />
+        ) : (
+          project.imgSrc &&
+          project.href && (
+            <Link target="_blank" href={project.imgSrc}>
+              <Image
+                src={project.imgSrc}
+                className=" mt-5"
+                alt={project.title}
+                width={400}
+                height={200}
+              />
+            </Link>
+          )
         )}
       </div>
     </main>

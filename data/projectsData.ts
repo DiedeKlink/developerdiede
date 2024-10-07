@@ -5,6 +5,7 @@ export type Project = {
   subjects?: string[]
   href: string
   imgSrc?: string
+  imgGallery?: string[]
   slug?: string
   tech: string
   github?: string
@@ -159,6 +160,11 @@ const projectsData: Project[] = [
     LiftTracker is een fitness-app gebouwd met React Native. Het stelt gebruikers in staat om hun sets, gewicht en herhalingen voor verschillende oefeningen bij te houden. Gebruikers kunnen hun trainingen per dag loggen en de kalenderfunctionaliteit gebruiken om hun trainingsgeschiedenis te bekijken. Deze app helpt gebruikers georganiseerd en gemotiveerd te blijven in hun fitnessreis.
     `,
     imgSrc: '/static/images/rmtdev-02.png',
+    imgGallery: [
+      '/static/images/lifttracker/lifttracker-01.jpg',
+      '/static/images/lifttracker/lifttracker-02.jpg',
+      '/static/images/lifttracker/lifttracker-03.jpg',
+    ],
     href: '/LiftTracker.apk',
     github: 'https://github.com/DiedeKlink/LiftTracker',
     slug: 'lifttracker',
