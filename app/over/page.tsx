@@ -45,7 +45,7 @@ export default function Page() {
         <h2>Opleidingen</h2>
         <p>2024 ByteGrad Professional React & Next.js Course</p>
         <p>
-          Aan de hand van deze cursus vijf React apps en twee Next.js apps gebouwd. Zie{' '}
+          Aan de hand van deze cursus heb ik vijf React apps en twee Next.js apps gebouwd. Zie{' '}
           <Link href="/projecten" title="Projecten">
             projecten
           </Link>{' '}
