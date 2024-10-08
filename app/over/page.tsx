@@ -5,7 +5,7 @@ import { coreContent } from 'pliny/utils/contentlayer'
 import { genPageMetadata } from 'app/seo'
 import Link from 'next/link'
 
-export const metadata = genPageMetadata({ title: 'About' })
+export const metadata = genPageMetadata({ title: 'Over mij' })
 
 export default function Page() {
   const author = allAuthors.find((p) => p.slug === 'default') as Authors
