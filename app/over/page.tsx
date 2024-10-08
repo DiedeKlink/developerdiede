@@ -15,6 +15,9 @@ export default function Page() {
     <>
       <AuthorLayout content={mainContent}>
         <MDXLayoutRenderer code={author.body.code} />
+        <Link href="/static/cv.pdf" target="_blank" title="Download CV">
+          Download mijn CV
+        </Link>
         <h2>Werkervaring</h2>
         <p>2015-2017 Premiums.mobi BV</p>
         <ul>
