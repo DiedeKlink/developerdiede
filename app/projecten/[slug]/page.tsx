@@ -14,7 +14,7 @@ export default function page({ params }) {
   const project = projectsData.find((project) => project.slug === slug)
 
   if (!project) {
-    return <div>Project not found</div>
+    return <div>Project niet gevonden.</div>
   }
 
   return (

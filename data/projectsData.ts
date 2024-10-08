@@ -20,7 +20,7 @@ const projectsData: Project[] = [
     PetSoft is a cutting-edge application built with React and Next.js for pet daycares. It allows users to keep track of the pets currently checked in at the daycare. Users can add new pets, edit pet information, and check out pets when they leave. This ensures efficient management of pet records and provides a seamless experience for daycare staff.
     `,
     description: `
-    Dit is de zesde en laatste app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. PetSoft is een geavanceerde applicatie gebouwd met React en Next.js voor dierenopvangcentra. De app bevat volledige CRUD functionaliteit, optimistic UI, server actions, auth, betalingen en meer! Het stelt gebruikers in staat om bij te houden welke huisdieren momenteel in de opvang zijn ingecheckt. Gebruikers kunnen nieuwe huisdieren toevoegen, informatie over huisdieren bewerken en huisdieren uitchecken wanneer ze vertrekken. Dit zorgt voor een efficiënte administratie van huisdiergegevens en biedt een naadloze ervaring voor het opvangpersoneel.
+     PetSoft is een geavanceerde applicatie gebouwd met React en Next.js voor dierenopvangcentra. Dit is de zesde en laatste app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. De app bevat volledige CRUD functionaliteit, optimistic UI, server actions, auth, betalingen en meer! Het stelt gebruikers in staat om bij te houden welke huisdieren momenteel in de opvang zijn ingecheckt. Gebruikers kunnen nieuwe huisdieren toevoegen, informatie over huisdieren bewerken en huisdieren uitchecken wanneer ze vertrekken. Dit zorgt voor een efficiënte administratie van huisdiergegevens en biedt een naadloze ervaring voor het opvangpersoneel.
     `,
     subjects: [
       'Shadcn UI',
@@ -69,7 +69,7 @@ const projectsData: Project[] = [
       EVENTO is a full-stack application built with React and Next.js. It allows users to find events happening near them. Users can search for events based on their location, view event details, and even get directions to the event venue. The app provides a seamless experience for discovering local events and staying updated with what's happening around them.
       `,
     description: `
-      Dit is de vijfde app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Tijdens dit project worden Next.js fundamentals behandeld, maar wordt er ook kennis gemaakt met geavanceerde patronen. EVENTO is een full-stack applicatie gebouwd met React, Next.js en Tailwind CSS. Het stelt gebruikers in staat om evenementen bij hen in de buurt te vinden. Gebruikers kunnen zoeken naar evenementen op basis van hun locatie, evenementdetails bekijken en zelfs routebeschrijvingen naar de evenementlocatie krijgen. De app biedt een naadloze ervaring voor het ontdekken van lokale evenementen en het op de hoogte blijven van wat er in de buurt gebeurt.
+      EVENTO is een full-stack applicatie gebouwd met React, Next.js en Tailwind CSS. Dit is de vijfde app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Tijdens dit project worden Next.js fundamentals behandeld, maar wordt er ook kennis gemaakt met geavanceerde patronen. De app stelt gebruikers in staat om evenementen bij hen in de buurt te vinden. Gebruikers kunnen zoeken naar evenementen op basis van hun locatie, evenementdetails bekijken en zelfs routebeschrijvingen naar de evenementlocatie krijgen. De app biedt een naadloze ervaring voor het ontdekken van lokale evenementen en het op de hoogte blijven van wat er in de buurt gebeurt.
       `,
     subjects: [
       'Routing Strategy (Layout & Pages, Dynamic Routes, <Link>)',
@@ -171,78 +171,57 @@ const projectsData: Project[] = [
     category: 'hobby',
   },
   {
-    title: 'Fancy Counter',
-    tech: 'React',
+    title: 'DeveloperDiede.nl',
+    tech: 'React, Next.js, TypeScript, Tailwind CSS',
     descriptionEn: `
-    A simple counter app built with React. It features a button to increment the count and another button to decrement the count. The count can also be reset to zero.`,
-    description: `
-    Dit is de eerste app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Door middel van het bouwen van een simpele moderne React app wordt de basis van React bijgebracht. De app bevat een knop om de telling te verhogen en een andere knop om de telling te verlagen. De telling kan ook worden teruggezet naar nul.
-
+    LiftTracker is a fitness app built with React Native. It allows users to track their sets, weight, and reps for various exercises. Users can log their workouts per day and utilize the calendar functionality to view their workout history and plan future sessions. This app helps users stay organized and motivated in their fitness journey.
     `,
-    subjects: [
-      'React Component Fundamentals',
-      'useState',
-      'useEffect',
-      'Event Handler Functions',
-      'Conditional Rendering',
-      'Derived State',
-      'Children Composition',
-    ],
-    imgSrc: '/static/images/fancy-counter-01.png',
-    href: 'https://fancy-counter-neon.vercel.app/',
-    github: 'https://github.com/DiedeKlink/fancy-counter',
-    slug: 'fancy-counter',
-    category: 'cursus',
+    description: `
+  DeveloperDiede.nl is mijn persoonlijke portfolio, gebouwd met React, Next.js, TypeScript en Tailwind CSS. Op deze website deel ik mijn projecten en geef ik een overzicht van mijn vaardigheden en ervaring. Het doel van DeveloperDiede.nl is om mijn werk te presenteren, mijn kennis te delen en in contact te komen met andere ontwikkelaars en potentiële werkgevers. De website is ontworpen met een focus op performance en toegankelijkheid, en maakt gebruik van een tailwind/next.js template om een soepele en responsieve gebruikerservaring te bieden.
+    `,
+    imgSrc: '/static/images/developerdiede-01.jpg',
+
+    href: 'https://developerdiede.nl/',
+    github: 'https://github.com/DiedeKlink/developerdiede',
+    slug: 'developerdiede',
+    category: 'hobby',
   },
   {
-    title: 'Word Analytics',
-    tech: 'React',
-
+    title: 'RMTDEV',
+    tech: 'React, TypeScript',
     descriptionEn: `
-    A simple word analytics app built with React. It features a text area where you can input text. The app will then display the number of words, characters, and sentences in the text.
-    `,
+    
+    RMTDEV is a job platform built with React and TypeScript. It allows users to search for job offers specifically in the field of programming, including React and other related technologies. `,
     description: `
-    Dit is de tweede app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Een eenvoudige woordanalyse-app gebouwd met React. Het bevat een tekstvak waarin je tekst kunt invoeren. De app toont vervolgens het aantal woorden, tekens en zinnen in de tekst.
+     RMTDEV is een cutting-edge React app met moderne best practices, React-Query, TypeScript en Context API. Dit is de vijfde app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Deze app is een jobplatform. Het stelt gebruikers in staat om naar vacatures te zoeken specifiek op het gebied van programmeren, inclusief React en andere gerelateerde technologieën. 
     `,
     subjects: [
-      'Uncontrolled Vs Controlled text inputs',
-      'Basic Validation',
-      'Lifting State Up',
-      'Manipulate CSS in React',
-      'Folder Structure',
-      'Derived State',
+      'Composing app with Components',
+      'Implement the searching feature',
+      'Data (Search Query Params Vs Path Params)',
+      'Where to Fetch Data? (UseEffect Vs Event Handler)',
+      'Fetch API Anatomy',
+      'Typing API Response (TypeScript)',
+      'Prevent Prop Drilling',
+      'Custom Hook Rules & Benefits',
+      'Pagination with Derived State',
+      'Benefits of Data in URL instead of State',
+      'Rendering items, Loading State',
+      'Debounce Search Text',
+      'React Query',
+      'Error Handling when Fetching Data',
+      'Toast Messages',
+      'Search result sorting',
+      'Persist Data in LocalStorage',
+      'UseRef',
+      'State Management In Context API (Multiple Contexts, Dependency Between Them)',
+      'UseMemo (Derived State, Context Value)',
+      'UseCallback for Event Handler Functions',
     ],
-    imgSrc: '/static/images/word-analytics-01.png',
-    href: 'https://word-analytics-mocha.vercel.app/',
-    github: 'https://github.com/DiedeKlink/word-analytics',
-    slug: 'word-analytics',
-    category: 'cursus',
-  },
-  {
-    title: 'TrekBag',
-    tech: 'React',
-    descriptionEn: `
-    TrekBag is a to-do style app built with React. It helps you keep track of items to pack for your road trip. You can add items to your packing list, mark them as packed, and remove them once you're done. This ensures you never forget any essential items for your journey.
-    `,
-    description: `
-    Dit is de derde app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Tijdens dit project worden er gevorderde en geavanceerde React technieken behandeld. Zoals het gebruik van de Context API, en deze vergelijken met een dedicated state management library zoals Zustand. TrekBag is een to-do stijl app gebouwd met React. Het helpt je bij het bijhouden van items die je moet inpakken voor je roadtrip. Je kunt items toevoegen aan je inpaklijst, ze markeren als ingepakt en ze verwijderen zodra je klaar bent. Dit zorgt ervoor dat je nooit essentiële items voor je reis vergeet.
-
-      
-    `,
-    subjects: [
-      'Mapping Over Array, Key Prop',
-      'Create a form (useState, Array of Objects, Spread Operator)',
-      'Best Practices: Naming Props',
-      'Sorting Items (React-Select Component)',
-      'LocalStorage with UseState',
-      'Best Practices: UseMemo',
-      'Context API with Custom Hook',
-      'Zustand (Replace Context API with Zustand)',
-    ],
-    imgSrc: '/static/images/trekbag-01.png',
-    href: 'https://trekbag-theta.vercel.app/',
-    github: 'https://github.com/DiedeKlink/trekbag',
-    slug: 'trekbag',
+    imgSrc: '/static/images/rmtdev-01.png',
+    href: 'https://rmtdev-react.vercel.app/',
+    github: 'https://github.com/DiedeKlink/rmtdev-react',
+    slug: 'rmtdev',
     category: 'cursus',
   },
   {
@@ -279,41 +258,78 @@ const projectsData: Project[] = [
     category: 'cursus',
   },
   {
-    title: 'RMTDEV',
-    tech: 'React, TypeScript',
+    title: 'Fancy Counter',
+    tech: 'React',
     descriptionEn: `
-    
-    RMTDEV is a job platform built with React and TypeScript. It allows users to search for job offers specifically in the field of programming, including React and other related technologies. `,
+    A simple counter app built with React. It features a button to increment the count and another button to decrement the count. The count can also be reset to zero.`,
     description: `
-    Dit is de vijfde app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. RMTDEV is een cutting-edge React app met moderne best practices, React-Query, TypeScript en Context API. Deze app is een jobplatform. Het stelt gebruikers in staat om naar vacatures te zoeken specifiek op het gebied van programmeren, inclusief React en andere gerelateerde technologieën. 
+    Een simpele counter app. Dit is de eerste app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Door middel van het bouwen van een simpele moderne React app wordt de basis van React bijgebracht. De app bevat een knop om de telling te verhogen en een andere knop om de telling te verlagen. De telling kan ook worden teruggezet naar nul.
+
     `,
     subjects: [
-      'Composing app with Components',
-      'Implement the searching feature',
-      'Data (Search Query Params Vs Path Params)',
-      'Where to Fetch Data? (UseEffect Vs Event Handler)',
-      'Fetch API Anatomy',
-      'Typing API Response (TypeScript)',
-      'Prevent Prop Drilling',
-      'Custom Hook Rules & Benefits',
-      'Pagination with Derived State',
-      'Benefits of Data in URL instead of State',
-      'Rendering items, Loading State',
-      'Debounce Search Text',
-      'React Query',
-      'Error Handling when Fetching Data',
-      'Toast Messages',
-      'Search result sorting',
-      'Persist Data in LocalStorage',
-      'UseRef',
-      'State Management In Context API (Multiple Contexts, Dependency Between Them)',
-      'UseMemo (Derived State, Context Value)',
-      'UseCallback for Event Handler Functions',
+      'React Component Fundamentals',
+      'useState',
+      'useEffect',
+      'Event Handler Functions',
+      'Conditional Rendering',
+      'Derived State',
+      'Children Composition',
     ],
-    imgSrc: '/static/images/rmtdev-01.png',
-    href: 'https://rmtdev-react.vercel.app/',
-    github: 'https://github.com/DiedeKlink/rmtdev-react',
-    slug: 'rmtdev',
+    imgSrc: '/static/images/fancy-counter-01.png',
+    href: 'https://fancy-counter-neon.vercel.app/',
+    github: 'https://github.com/DiedeKlink/fancy-counter',
+    slug: 'fancy-counter',
+    category: 'cursus',
+  },
+  {
+    title: 'Word Analytics',
+    tech: 'React',
+
+    descriptionEn: `
+    A simple word analytics app built with React. It features a text area where you can input text. The app will then display the number of words, characters, and sentences in the text.
+    `,
+    description: `
+    Een eenvoudige woordanalyse-app gebouwd met React. Dit is de tweede app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>.  Het bevat een tekstvak waarin je tekst kunt invoeren. De app toont vervolgens het aantal woorden, tekens en zinnen in de tekst.
+    `,
+    subjects: [
+      'Uncontrolled Vs Controlled text inputs',
+      'Basic Validation',
+      'Lifting State Up',
+      'Manipulate CSS in React',
+      'Folder Structure',
+      'Derived State',
+    ],
+    imgSrc: '/static/images/word-analytics-01.png',
+    href: 'https://word-analytics-mocha.vercel.app/',
+    github: 'https://github.com/DiedeKlink/word-analytics',
+    slug: 'word-analytics',
+    category: 'cursus',
+  },
+  {
+    title: 'TrekBag',
+    tech: 'React',
+    descriptionEn: `
+    TrekBag is a to-do style app built with React. It helps you keep track of items to pack for your road trip. You can add items to your packing list, mark them as packed, and remove them once you're done. This ensures you never forget any essential items for your journey.
+    `,
+    description: `
+    TrekBag is een to-do stijl app gebouwd met React. Dit is de derde app gebouwd aan de hand van de Professional React & Next.js cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-react-nextjs" target="blank" title="ByteGrad">ByteGrad</a>. Tijdens dit project worden er gevorderde en geavanceerde React technieken behandeld. Zoals het gebruik van de Context API, en deze vergelijken met een dedicated state management library zoals Zustand. De app helpt je bij het bijhouden van items die je moet inpakken voor je roadtrip. Je kunt items toevoegen aan je inpaklijst, ze markeren als ingepakt en ze verwijderen zodra je klaar bent. Dit zorgt ervoor dat je nooit essentiële items voor je reis vergeet.
+
+      
+    `,
+    subjects: [
+      'Mapping Over Array, Key Prop',
+      'Create a form (useState, Array of Objects, Spread Operator)',
+      'Best Practices: Naming Props',
+      'Sorting Items (React-Select Component)',
+      'LocalStorage with UseState',
+      'Best Practices: UseMemo',
+      'Context API with Custom Hook',
+      'Zustand (Replace Context API with Zustand)',
+    ],
+    imgSrc: '/static/images/trekbag-01.png',
+    href: 'https://trekbag-theta.vercel.app/',
+    github: 'https://github.com/DiedeKlink/trekbag',
+    slug: 'trekbag',
     category: 'cursus',
   },
 
