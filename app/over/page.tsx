@@ -48,6 +48,7 @@ export default function Page() {
           <a
             href="https://bytegrad.com/courses/professional-react-nextjs"
             title="Professional React & Next.js Course"
+            target="_blank"
           >
             Professional React & Next.js Course
           </a>
