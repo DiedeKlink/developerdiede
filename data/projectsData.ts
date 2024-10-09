@@ -46,7 +46,7 @@ const projectsData: Project[] = [
       'Sessions',
       'JWT Vs Database Sessions',
       'Edge Network (Middleware)',
-      'Middleware In NExtJS',
+      'Middleware In NextJS',
       'Add User To Database',
       'Next-Auth Configuration',
       'Redirect Rules',
