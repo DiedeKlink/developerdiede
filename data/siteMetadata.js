@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Portfolio',
+  title: 'Portfolio Diede Klinkenberg',
   author: 'Diede Klinkenberg',
   headerTitle: '',
   description: 'Portfolio website van Diede Klinkenberg',
