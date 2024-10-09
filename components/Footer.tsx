@@ -16,6 +16,14 @@ export default function Footer() {
           <SocialIcon kind="x" href={siteMetadata.x} size={6} />
           <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6} />
           <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
+          <Link
+            className=" text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400"
+            href="/static/cv.pdf"
+            target="_blank"
+            title="Download CV"
+          >
+            CV
+          </Link>
         </div>
         <div className="mb-[50px] flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <div>{siteMetadata.author}</div>
