@@ -17,7 +17,7 @@ export default function Footer() {
           <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6} />
           <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
           <Link
-            className=" text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400"
+            className="font-semibold text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400"
             href="/static/cv.pdf"
             target="_blank"
             title="Download CV"
