@@ -39,7 +39,7 @@ export default function AuthorLayout({ children, content }: Props) {
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="x" href={twitter} />
               <Link
-                className="mt-1 text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400"
+                className="mt-1 font-semibold text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400"
                 href="/static/cv.pdf"
                 target="_blank"
                 title="Download CV"
