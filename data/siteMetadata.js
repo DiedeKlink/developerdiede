@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Portfolio website van Diede Klinkenberg',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://developerdiede.vercel.app/',
+  siteUrl: 'https://developerdiede.nl/',
   siteRepo: 'https://github.com/DiedeKlink/developerdiede',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo2.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/ogimg.png`,

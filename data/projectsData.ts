@@ -62,6 +62,7 @@ const projectsData: Project[] = [
     slug: 'petsoft',
     category: 'cursus',
   },
+
   {
     title: 'EVENTO',
     tech: 'React, Next.js, TypeScript, Tailwind CSS',
@@ -109,7 +110,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'BotenWebManager',
-    tech: 'Javascript',
+    tech: 'JavaScript',
     description: `
       Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://arimpex.nl/" target="blank" title="Arimpex">Arimpex Media Services</a>. BotenWebManager is een uitgebreide webapplicatie die speciaal is ontworpen voor het beheren van botenadvertenties. De applicatie biedt functies zoals het bijhouden van bootgegevens, en het doorplaatsen van advertenties naar verschillende botenplatforms. Het doel van BotenWebManager is om eigenaren en beheerders van jachthavens te helpen bij het efficiënt beheren van hun vloot en faciliteiten.
       `,
@@ -122,7 +123,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'Botentekoop.nl',
-    tech: 'Javascript',
+    tech: 'JavaScript',
     description: `
       Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://arimpex.nl/" target="blank" title="Arimpex">Arimpex Media Services</a>. 
 
@@ -137,7 +138,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'Camperscaravans.nl',
-    tech: 'Javascript',
+    tech: 'JavaScript',
     description: `
       Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://arimpex.nl/" target="blank" title="Arimpex">Arimpex Media Services</a>. 
 
@@ -148,6 +149,30 @@ const projectsData: Project[] = [
     href: 'https://camperscaravans.nl/',
 
     slug: 'camperscaravans',
+    category: 'dienstverband',
+  },
+  {
+    title: 'Sloepen.nl',
+    tech: 'JavaScript',
+    description: `
+    Sloepen.nl is een project dat ik samen met collega's mocht ontwikkelen als medewerker van Arimpex Media Services. Sloepen.nl is een platform voor het kopen en verkopen van sloepen in Nederland. Het biedt een uitgebreide database van sloepenadvertenties, variërend van kleine sloepen tot luxe modellen. Gebruikers kunnen eenvoudig zoeken naar sloepen op basis van verschillende criteria zoals type, prijs, en locatie. Het platform biedt ook tools voor het beheren van advertenties, het bijhouden van favorieten, en het direct contact opnemen met verkopers.
+    `,
+    imgSrc: '/static/images/sloepen-01.jpg',
+    href: 'https://sloepen.nl/',
+
+    slug: 'sloepen',
+    category: 'dienstverband',
+  },
+  {
+    title: 'Campers.nl',
+    tech: 'JavaScript',
+    description: `
+    Dit is een project dat ik samen met collega's mocht ontwikkelen als medewerker van Arimpex Media Services. Campers.nl is een platform voor het kopen en verkopen van campers in Nederland. Het biedt een uitgebreide database van campersadvertenties, variërend van compacte campers tot luxe modellen. Gebruikers kunnen eenvoudig zoeken naar campers op basis van verschillende criteria zoals type, prijs, en locatie. Het platform biedt ook tools voor het beheren van advertenties, het bijhouden van favorieten, en het direct contact opnemen met verkopers. 
+    `,
+    imgSrc: '/static/images/campers-01.jpg',
+    href: 'https://campers.nl/',
+
+    slug: 'campers',
     category: 'dienstverband',
   },
   {
@@ -335,13 +360,13 @@ const projectsData: Project[] = [
 
   {
     title: 'CorpComment (JS)',
-    tech: 'Javascript',
+    tech: 'JavaScript',
     descriptionEn: `
     
-    CorpComment is a platform built with Javascript. Users can leave comments about corporations using hashtags. This allows for easy categorization and searching of comments. Users can share their experiences, feedback, and opinions about different companies, helping others make informed decisions. The app supports real-time updates and displays trending hashtags related to corporations.
+    CorpComment is a platform built with JavaScript. Users can leave comments about corporations using hashtags. This allows for easy categorization and searching of comments. Users can share their experiences, feedback, and opinions about different companies, helping others make informed decisions. The app supports real-time updates and displays trending hashtags related to corporations.
     `,
     description: `
-    Dit is een app gebouwd aan de hand van de Professional Javascript cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-javascript" target="blank" title="ByteGrad">ByteGrad</a>. CorpComment is een platform gebouwd met Javascript. Gebruikers kunnen opmerkingen achterlaten over bedrijven met behulp van hashtags. Dit maakt eenvoudige categorisatie en zoeken van opmerkingen mogelijk. Gebruikers kunnen hun ervaringen, feedback en meningen over verschillende bedrijven delen, waardoor anderen weloverwogen beslissingen kunnen nemen. De app ondersteunt realtime updates en toont trending hashtags gerelateerd aan bedrijven.
+    Dit is een app gebouwd aan de hand van de Professional JavaScript cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-javascript" target="blank" title="ByteGrad">ByteGrad</a>. CorpComment is een platform gebouwd met JavaScript. Gebruikers kunnen opmerkingen achterlaten over bedrijven met behulp van hashtags. Dit maakt eenvoudige categorisatie en zoeken van opmerkingen mogelijk. Gebruikers kunnen hun ervaringen, feedback en meningen over verschillende bedrijven delen, waardoor anderen weloverwogen beslissingen kunnen nemen. De app ondersteunt realtime updates en toont trending hashtags gerelateerd aan bedrijven.
     `,
     imgSrc: '/static/images/corpcomment-01.png',
     href: 'https://corpcomment-javascript.vercel.app/',
@@ -351,12 +376,12 @@ const projectsData: Project[] = [
   },
   {
     title: 'RMTDEV (JS)',
-    tech: 'Javascript',
+    tech: 'JavaScript',
     descriptionEn: `
     
-    RMTDEV is a job platform built with Javascript. It allows users to search for job offers specifically in the field of programming, including React and other related technologies. `,
+    RMTDEV is a job platform built with JavaScript. It allows users to search for job offers specifically in the field of programming, including React and other related technologies. `,
     description: `
-    Dit is een app gebouwd aan de hand van de Professional Javascript cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-javascript" target="blank" title="ByteGrad">ByteGrad</a>. RMTDEV is een jobplatform gebouwd met Javascript. Het stelt gebruikers in staat om naar vacatures te zoeken specifiek op het gebied van programmeren, inclusief React en andere gerelateerde technologieën. 
+    Dit is een app gebouwd aan de hand van de Professional JavaScript cursus van <a class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://bytegrad.com/courses/professional-javascript" target="blank" title="ByteGrad">ByteGrad</a>. RMTDEV is een jobplatform gebouwd met JavaScript. Het stelt gebruikers in staat om naar vacatures te zoeken specifiek op het gebied van programmeren, inclusief React en andere gerelateerde technologieën. 
     `,
     imgSrc: '/static/images/rmtdev-01.png',
     href: 'https://rmtdev-javascript.vercel.app/',
